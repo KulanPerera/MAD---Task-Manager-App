@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/Blue_navi"
+    tools:context=".UpdateNoteActivity">
+
+    <TextView
+        android:id="@+id/editNoteHeding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/edit_note"
+        android:textColor="@color/yellow"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/updatesaveButton"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/editNoteHeding"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/baseline_add_task_24" />
+
+    <EditText
+        android:id="@+id/updatetitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editNoteHeding"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/white_border"
+        android:backgroundTint="@color/Blue_navilight"
+        android:hint="@string/enter_the_title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updatecontentEditText"
+        android:layout_width="394dp"
+        android:layout_height="554dp"
+        android:layout_below="@+id/updatetitleEditText"
+        android:layout_marginTop="13dp"
+        android:background="@color/Blue_navilight"
+        android:gravity="top"
+        android:hint="@string/enter_the_description"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

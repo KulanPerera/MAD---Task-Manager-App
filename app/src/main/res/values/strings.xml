@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">note App</string>
+    <string name="notes">Notes...</string>
+    <string name="noteapp">NOTE APP</string>
+    <string name="topic">NODE-MAN APP</string>
+    <string name="edit_note">Edit Note..</string>
+    <string name="enter_the_title">Enter The Title</string>
+    <string name="enter_the_description">Enter the Description</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+</resources>
